@@ -9,10 +9,13 @@
 </head>
 
 <body>
+    
+    // j'initialise le plateau en plaçant les pions par défaut comme dans les régles 
+    
     <div id="plateau">
     <table cellspacing = "0" cellpadding="0">
     <tr>
-        <td class="blanc"><div onclick="deplacer(this.id)" id="21"><img class="black" src="Tn.png"/></div></td>
+        <td class="blanc"><div onclick="deplacer(this.id)" id="21"><img class="black" src="Tn.png"/></div></td>// classe black pour les pions noirs 
         <td class="marron"><div onclick="deplacer(this.id)" id="22"><img class="black" src="Cn.png"/></div></td>
         <td class="blanc"><div onclick="deplacer(this.id)" id="23"><img class="black" src="Fn.png"/></div></td>
         <td class="marron"><div onclick="deplacer(this.id)" id="24"><img class="black" src="Dn.png"/></div></td>
@@ -72,7 +75,7 @@
         <td class="blanc"><div onclick="deplacer(this.id)" id="78"></div></td>
     </tr>
     <tr>
-        <td class="blanc"><div onclick="deplacer(this.id)" id="81"><img class="w" src="Pb.png"/></div></td>
+        <td class="blanc"><div onclick="deplacer(this.id)" id="81"><img class="w" src="Pb.png"/></div></td> // classe w pour les pions whites
         <td class="marron"><div onclick="deplacer(this.id)" id="82"><img class="w" src="Pb.png"/></div></td>
         <td class="blanc"><div onclick="deplacer(this.id)" id="83"><img class="w"  src="Pb.png"/></div></td>
         <td class="marron"><div onclick="deplacer(this.id)" id="84"><img class="w"  src="Pb.png"/></div></td>
