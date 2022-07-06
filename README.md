@@ -1,2 +1,2 @@
 # ChessJS
-Jeu d'échecs en Javascript dans le cadre d'un projet pro
+Jeu d'échecs en Javascript dans le cadre d'un défi entre amis.
