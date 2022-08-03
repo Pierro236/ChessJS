@@ -98,6 +98,7 @@ function ajouter(id2) {
 
     countarr = document.getElementById(id2).childElementCount;
     // je récupère le type de pion
+    
     var pion = document.getElementById(idcourant).firstChild.getAttribute('name');
 
     if(countarr==0) { // si il n'ya pas de pion sur la case d'arrive je déplace normalement mon pion 
