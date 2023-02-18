@@ -15,4 +15,4 @@ EXPOSE 80
 LABEL ORIGIN herogu.garageisep.com
 
 COPY . /var/www/html
-LABEL org.opencontainers.image.source https://github.com/pierro236/chessj
+LABEL org.opencontainers.image.source https://github.com/pierro236/chessjs
