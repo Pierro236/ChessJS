@@ -27,6 +27,7 @@ function moveCavs(idDepart,idArrive) {
     }
 }
 // Déplacement de la tour
+// "access_token":"eyJra1example",
 
 function moveTower(idDepart,idArrive) {
     numDep = parseInt(idDepart, 10);
