@@ -196,7 +196,7 @@ function ajouter(id2) {
     idcourant="none";  
 }
 
-// MYSQL_PASSWORD = hvh788hh 
+// MYSQL_PASSWORD = hvh788hh78BS 
 
 
 
