@@ -2,8 +2,6 @@ var idcourant = "none";
 var imgcourant = "none";
 var playerTurn = 1;
 
-MYSQL_PASSWORD = ygyzedg68hgd;
-MYSQL_USER = damn;
 // Déplacement du pion à finir
 
 function movePawn(idDepart, idArrive) {
@@ -189,5 +187,3 @@ function ajouter(id2) {
   imgcourant = "none";
   idcourant = "none";
 }
-
-// MYSQL_PASSWORD = hvh788hh78BS
