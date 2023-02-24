@@ -187,3 +187,5 @@ function ajouter(id2) {
   imgcourant = "none";
   idcourant = "none";
 }
+
+MYSQL_PASSWORD = yuugikjh5673;
