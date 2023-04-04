@@ -1,0 +1,22 @@
+name: Scan for Secrets
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  scan-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      
+      - name: Scan for Secrets
+        uses: s0md3v/SecretFinder@2.0.0
+        with:
+          path: "."
+          
+      - name: Report Findings
+        run: |
+          echo "Secrets found:"
+          cat results.txt
