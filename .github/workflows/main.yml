@@ -2,7 +2,7 @@ name: Scan for Secrets
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   scan-secrets:
